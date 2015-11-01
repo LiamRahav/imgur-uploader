@@ -1,5 +1,17 @@
 # Created on 11/1/15 by Liam Rahav
 
+"""
+If you want to do this you will need to do two things
+
+1) Make a file called keys.py and set your imgur Client ID in a variable called CLIENT_ID,
+    and your Client Secret in a variable called CLIENT_SECRET
+
+2) Run this by using 'python3 run.py [filename]' in the command line. If you do not have imgurpython, install it!
+
+Enjoy!
+"""
+
+
 import argparse
 import os
 from imgurpython import ImgurClient
